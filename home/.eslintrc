@@ -66,7 +66,7 @@ rules:
 
   # Strict Mode
   # https://github.com/eslint/eslint/tree/master/docs/rules#strict-mode
-  strict: [2, "global"]
+  #strict: [2, "global"]
 
   # Variables
   # https://github.com/eslint/eslint/tree/master/docs/rules#variables
