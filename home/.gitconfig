@@ -93,7 +93,7 @@
 	precomposeunicode = false
 
 	excludesfile = /Users/lyza/.gitignore
-	editor = atom --wait
+	editor = vim
 
 [color]
 
