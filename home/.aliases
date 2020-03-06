@@ -139,3 +139,10 @@ alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resource
 
 # Reload the shell (i.e. invoke as a login shell)
 alias reload="exec $SHELL -l"
+
+# Search for something using `ag` but ignore test files
+function agi() {
+  if [ -x /usr/local/bin/ag ]; then
+	  ag "$1" --ignore="test"
+	fi
+}
